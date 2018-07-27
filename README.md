@@ -553,3 +553,4 @@ With our realtime telemetry plugin defined, let's include it from `index.html`.
 ```
 
 If we refresh the page and navigate to one of our telemetry points we should now see telemetry flowing. For example, navigating to the "Generator Temperature" telemetry point should show us a plot of telemetry data that is now updated regularly.
+# openmct-map
