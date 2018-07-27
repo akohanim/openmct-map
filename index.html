@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>    
+    <title>Open MCT Tutorials</title>
+    <script src="node_modules/openmct/dist/openmct.js"></script>
+    <script src="lib/http.js"></script>
+    <script src="dictionary-plugin.js"></script>
+    <script src="historical-telemetry-plugin.js"></script>
+    <script src="realtime-telemetry-plugin.js"></script>
+</head>
+<body>
+        <title>Simple Map</title>
+        <meta name="viewport" content="initial-scale=1.0">
+        <meta charset="utf-8">
+        <style>
+          /* Always set the map height explicitly to define the size of the div
+           * element that contains the map. */
+          #map {
+            height: 100%;
+          }
+          /* Optional: Makes the sample page fill the window. */
+          html, body {
+            height: 50%;
+            margin: 0;
+            padding: 0;
+          }
+        </style>
+      </body>
+      <body>
+        <div id="map"></div>
+        <script>
+          var map;
+          function initMap() {
+            var myLatLng = {lat: 34.443889, lng: -116.966944};
+
+            var map = new google.maps.Map(document.getElementById('map'), {
+              center: myLatLng,
+              zoom: 5,
+            });
+            
+          var myImage = './supplies.svg';
+           var marker = new google.maps.Marker({
+ 
+            position: myLatLng,
+            map: map,
+            icon: myImage,
+           
+             }); 
+          }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCer_DK3WyR-BvEfJnlG7UZD-oxOol8yNM&callback=initMap"
+        async defer></script>
+      </body>
+        </html>
+<body>
+    <script>
+        openmct.setAssetPath('node_modules/openmct/dist');
+        openmct.install(openmct.plugins.LocalStorage());
+        openmct.install(openmct.plugins.MyItems());
+        openmct.install(openmct.plugins.UTCTimeSystem());
+        openmct.time.clock('local', {start: -15 * 60 * 1000, end: 0});
+        openmct.time.timeSystem('utc');
+        openmct.install(openmct.plugins.Espresso());
+
+        openmct.install(DictionaryPlugin());
+        openmct.install(HistoricalTelemetryPlugin());
+        openmct.install(RealtimeTelemetryPlugin());
+
+        openmct.start();
+    </script>
+</body>
+</html>

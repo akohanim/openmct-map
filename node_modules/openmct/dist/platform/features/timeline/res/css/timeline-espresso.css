@@ -1,0 +1,888 @@
+@charset "UTF-8";
+/*****************************************************************************
+ * Open MCT, Copyright (c) 2014-2018, United States Government
+ * as represented by the Administrator of the National Aeronautics and Space
+ * Administration. All rights reserved.
+ *
+ * Open MCT is licensed under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0.
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations
+ * under the License.
+ *
+ * Open MCT includes source code licensed under additional open source
+ * licenses. See the Open Source Licenses file (LICENSES.md) included with
+ * this source code distribution or the Licensing information page available
+ * at runtime from the About dialog for additional information.
+ *****************************************************************************/
+/*****************************************************************************
+ * Open MCT, Copyright (c) 2014-2018, United States Government
+ * as represented by the Administrator of the National Aeronautics and Space
+ * Administration. All rights reserved.
+ *
+ * Open MCT is licensed under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0.
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations
+ * under the License.
+ *
+ * Open MCT includes source code licensed under additional open source
+ * licenses. See the Open Source Licenses file (LICENSES.md) included with
+ * this source code distribution or the Licensing information page available
+ * at runtime from the About dialog for additional information.
+ *****************************************************************************/
+/************************** FEATURES */
+/************************** VERY INFLUENTIAL GLOBAL DIMENSIONS */
+/************************** RATIOS */
+/************************** LAYOUT */
+/*************** Panes */
+/*************** Overlay */
+/*************** Progress Overlay */
+/*************** Items */
+/*************** Tree */
+/*************** Tabular */
+/*************** Imagery */
+/*************** Ticks */
+/*************** Plots */
+/* min plot height is based on user testing to find minimum useful height */
+/*************** Bubbles */
+/*************** Forms */
+/*************** Wait Spinner Defaults */
+/************************** CONTROLS */
+/************************** PATHS */
+/************************** TIMINGS */
+/*****************************************************************************
+ * Open MCT, Copyright (c) 2014-2018, United States Government
+ * as represented by the Administrator of the National Aeronautics and Space
+ * Administration. All rights reserved.
+ *
+ * Open MCT is licensed under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0.
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations
+ * under the License.
+ *
+ * Open MCT includes source code licensed under additional open source
+ * licenses. See the Open Source Licenses file (LICENSES.md) included with
+ * this source code distribution or the Licensing information page available
+ * at runtime from the About dialog for additional information.
+ *****************************************************************************/
+/*********************************************** CONTROLS, FORM ELEMENTS */
+/*****************************************************************************
+ * Open MCT, Copyright (c) 2014-2018, United States Government
+ * as represented by the Administrator of the National Aeronautics and Space
+ * Administration. All rights reserved.
+ *
+ * Open MCT is licensed under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0.
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations
+ * under the License.
+ *
+ * Open MCT includes source code licensed under additional open source
+ * licenses. See the Open Source Licenses file (LICENSES.md) included with
+ * this source code distribution or the Licensing information page available
+ * at runtime from the About dialog for additional information.
+ *****************************************************************************/
+/* line 38, platform/commonUI/general/res/sass/_glyphs.scss */
+[class*="icon-"].labeled:before {
+  margin-right: 3px; }
+
+/************************** CHAR UNICODES */
+/************************** 16 PX CLASSES */
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-alert-rect:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-alert-triangle:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-arrow-down:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-arrow-left:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-arrow-right:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-arrow-double-up:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-arrow-tall-up:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-arrow-tall-down:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-arrow-double-down:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-arrow-up:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-asterisk:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-bell:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-box:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-box-with-arrow:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-check:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-connectivity:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-database-in-brackets:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-eye-open:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-gear:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-hourglass:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-info:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-link:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-lock:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-minus:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-people:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-person:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-plus:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-trash:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-x:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-brackets:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-crosshair:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-grippy:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-arrow-right-equilateral:before {
+  content: "";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-arrows-out:before {
+  content: "󡀀";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-arrows-right-left:before {
+  content: "󡀁";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-arrows-up-down:before {
+  content: "󡀂";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-bullet:before {
+  content: "󡀄";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-calendar:before {
+  content: "󡀅";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-chain-links:before {
+  content: "󡀆";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-collapse-pane-left:before {
+  content: "󡀇";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-collapse-pane-right:before {
+  content: "󡀈";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-download:before {
+  content: "󡀉";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-duplicate:before {
+  content: "󡀐";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-folder-new:before {
+  content: "󡀑";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-fullscreen-collapse:before {
+  content: "󡀒";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-fullscreen-expand:before {
+  content: "󡀓";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-layers:before {
+  content: "󡀔";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-line-horz:before {
+  content: "󡀕";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-magnify:before {
+  content: "󡀖";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-magnify-in:before {
+  content: "󡀗";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-magnify-out:before {
+  content: "󡀘";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-menu-hamburger:before {
+  content: "󡀙";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-move:before {
+  content: "󡀠";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-new-window:before {
+  content: "󡀡";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-paint-bucket:before {
+  content: "󡀢";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-pause:before {
+  content: "󡀣";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-pencil:before {
+  content: "󡀤";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-play:before {
+  content: "󡀥";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-plot-resource:before {
+  content: "󡀦";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-pointer-left:before {
+  content: "󡀧";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-pointer-right:before {
+  content: "󡀨";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-refresh:before {
+  content: "󡀩";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-save:before {
+  content: "󡀰";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-sine:before {
+  content: "󡀱";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-T:before {
+  content: "󡀲";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-thumbs-strip:before {
+  content: "󡀳";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-two-parts-both:before {
+  content: "󡀴";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-two-parts-one-only:before {
+  content: "󡀵";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-resync:before {
+  content: "󡀶";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-reset:before {
+  content: "󡀷";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-x-in-circle:before {
+  content: "󡀸";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-brightness:before {
+  content: "󡀹";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-contrast:before {
+  content: "󡁀";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-expand:before {
+  content: "󡁁";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-list-view:before {
+  content: "󡁂";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-grid-snap-to:before {
+  content: "󡁃";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-grid-snap-no:before {
+  content: "󡁄";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-frame-show:before {
+  content: "󡁅";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-frame-hide:before {
+  content: "󡁆";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-import:before {
+  content: "󡁇";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-export:before {
+  content: "󡁈";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-activity:before {
+  content: "󡄀";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-activity-mode:before {
+  content: "󡄁";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-autoflow-tabular:before {
+  content: "󡄂";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-clock:before {
+  content: "󡄃";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-database:before {
+  content: "󡄄";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-database-query:before {
+  content: "󡄅";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-dataset:before {
+  content: "󡄆";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-datatable:before {
+  content: "󡄇";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-dictionary:before {
+  content: "󡄈";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-folder:before {
+  content: "󡄉";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-image:before {
+  content: "󡄐";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-layout:before {
+  content: "󡄑";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-object:before {
+  content: "󡄒";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-object-unknown:before {
+  content: "󡄓";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-packet:before {
+  content: "󡄔";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-page:before {
+  content: "󡄕";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-plot-overlay:before {
+  content: "󡄖";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-plot-stacked:before {
+  content: "󡄗";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-session:before {
+  content: "󡄘";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-tabular:before {
+  content: "󡄙";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-tabular-lad:before {
+  content: "󡄠";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-tabular-lad-set:before {
+  content: "󡄡";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-tabular-realtime:before {
+  content: "󡄢";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-tabular-scrolling:before {
+  content: "󡄣";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-telemetry:before {
+  content: "󡄤";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-telemetry-panel:before {
+  content: "󡄥";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-timeline:before {
+  content: "󡄦";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-timer:before {
+  content: "󡄧";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-topic:before {
+  content: "󡄨";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-box-with-dashed-lines:before {
+  content: "󡄩";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-summary-widget:before {
+  content: "󡄰";
+  font-family: "symbolsfont"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-notebook:before {
+  content: "󡄱";
+  font-family: "symbolsfont"; }
+
+/************************** 12 PX CLASSES */
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-crosshair-12px:before {
+  content: "";
+  font-family: "symbolsfont-12px"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-folder-12px:before {
+  content: "󡄉";
+  font-family: "symbolsfont-12px"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-list-view-12px:before {
+  content: "󡁂";
+  font-family: "symbolsfont-12px"; }
+
+/* line 23, platform/commonUI/general/res/sass/_glyphs.scss */
+.icon-grippy-12px:before {
+  content: "";
+  font-family: "symbolsfont-12px"; }
+
+/*****************************************************************************
+ * Open MCT, Copyright (c) 2014-2018, United States Government
+ * as represented by the Administrator of the National Aeronautics and Space
+ * Administration. All rights reserved.
+ *
+ * Open MCT is licensed under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0.
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations
+ * under the License.
+ *
+ * Open MCT includes source code licensed under additional open source
+ * licenses. See the Open Source Licenses file (LICENSES.md) included with
+ * this source code distribution or the Licensing information page available
+ * at runtime from the About dialog for additional information.
+ *****************************************************************************/
+/*****************************************************************************
+ * Open MCT, Copyright (c) 2014-2018, United States Government
+ * as represented by the Administrator of the National Aeronautics and Space
+ * Administration. All rights reserved.
+ *
+ * Open MCT is licensed under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0.
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations
+ * under the License.
+ *
+ * Open MCT includes source code licensed under additional open source
+ * licenses. See the Open Source Licenses file (LICENSES.md) included with
+ * this source code distribution or the Licensing information page available
+ * at runtime from the About dialog for additional information.
+ *****************************************************************************/
+/*****************************************************************************
+ * Open MCT, Copyright (c) 2014-2018, United States Government
+ * as represented by the Administrator of the National Aeronautics and Space
+ * Administration. All rights reserved.
+ *
+ * Open MCT is licensed under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0.
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations
+ * under the License.
+ *
+ * Open MCT includes source code licensed under additional open source
+ * licenses. See the Open Source Licenses file (LICENSES.md) included with
+ * this source code distribution or the Licensing information page available
+ * at runtime from the About dialog for additional information.
+ *****************************************************************************/
+/* line 26, platform/features/timeline/res/sass/_timeline-thematic.scss */
+.l-timeline-holder .l-timeline-pane.t-pane-h.l-timeline-resource-legend .l-legend-items {
+  color: #999; }
+
+/* line 34, platform/features/timeline/res/sass/_timeline-thematic.scss */
+.l-timeline-holder .l-follow-line {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  z-index: 9; }
+
+/* line 45, platform/features/timeline/res/sass/_timeline-thematic.scss */
+.l-timeline-gantt .l-follow-line {
+  top: 5px; }
+  /* line 48, platform/features/timeline/res/sass/_timeline-thematic.scss */
+  .l-timeline-gantt .l-follow-line:before, .l-timeline-gantt .l-follow-line:after {
+    content: '';
+    display: block;
+    height: 0.8rem;
+    width: 0.8rem;
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%); }
+  /* line 58, platform/features/timeline/res/sass/_timeline-thematic.scss */
+  .l-timeline-gantt .l-follow-line:before {
+    width: 1.6rem; }
+  /* line 62, platform/features/timeline/res/sass/_timeline-thematic.scss */
+  .l-timeline-gantt .l-follow-line:after {
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+    text-align: center; }
+
+/* line 73, platform/features/timeline/res/sass/_timeline-thematic.scss */
+.s-timeline-gantt .bar {
+  color: #fff;
+  background-image: -webkit-linear-gradient(#7777bb, #5555aa);
+  background-image: linear-gradient(#7777bb, #5555aa);
+  box-shadow: rgba(0, 0, 0, 0.4) 0 1px 3px; }
+  /* line 77, platform/features/timeline/res/sass/_timeline-thematic.scss */
+  .s-timeline-gantt .bar .s-toggle {
+    color: #0099cc; }
+
+/* line 85, platform/features/timeline/res/sass/_timeline-thematic.scss */
+.s-timeline-tabular .l-header .l-cols .l-col {
+  border-left: 1px solid #666666; }
+
+/* line 93, platform/features/timeline/res/sass/_timeline-thematic.scss */
+.s-timeline-tabular .l-pane-l .l-cols .t-object-label .t-item-icon {
+  color: #7777bb; }
+
+/* line 103, platform/features/timeline/res/sass/_timeline-thematic.scss */
+.edit-mode .s-timeline-gantt .bar:hover,
+.s-status-editing .s-timeline-gantt .bar:hover {
+  background-image: -webkit-linear-gradient(#9999cc, #7777bb);
+  background-image: linear-gradient(#9999cc, #7777bb); }
+
+/* line 110, platform/features/timeline/res/sass/_timeline-thematic.scss */
+.s-timeline {
+  font-size: 0.75rem; }
+  /* line 112, platform/features/timeline/res/sass/_timeline-thematic.scss */
+  .s-timeline .s-header {
+    background-color: #404040; }
+  /* line 115, platform/features/timeline/res/sass/_timeline-thematic.scss */
+  .s-timeline .s-swimlane {
+    border-bottom: 1px solid #4d4d4d;
+    line-height: 20px; }
+    /* line 118, platform/features/timeline/res/sass/_timeline-thematic.scss */
+    .s-timeline .s-swimlane.exceeded {
+      background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.05) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.05) 50%, rgba(255, 255, 255, 0.05) 75%, transparent 75%, transparent 100%);
+      background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.05) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.05) 50%, rgba(255, 255, 255, 0.05) 75%, transparent 75%, transparent 100%);
+      background-repeat: repeat;
+      background-size: 22px 22px; }
+    /* line 122, platform/features/timeline/res/sass/_timeline-thematic.scss */
+    .s-timeline .s-swimlane.selected {
+      background-color: #222;
+      color: #ccc; }
+      /* line 126, platform/features/timeline/res/sass/_timeline-thematic.scss */
+      .s-timeline .s-swimlane.selected .s-timeline-gantt .bar {
+        background-image: -webkit-linear-gradient(#e6e6e6, #ccc);
+        background-image: linear-gradient(#e6e6e6, #ccc);
+        color: #333; }
+    /* line 132, platform/features/timeline/res/sass/_timeline-thematic.scss */
+    .s-timeline .s-swimlane.drop-into {
+      background-color: rgba(85, 85, 170, 0.7); }
+      /* line 134, platform/features/timeline/res/sass/_timeline-thematic.scss */
+      .s-timeline .s-swimlane.drop-into .s-timeline-gantt {
+        opacity: 0.7; }
+    /* line 138, platform/features/timeline/res/sass/_timeline-thematic.scss */
+    .s-timeline .s-swimlane.drop-after {
+      background-color: rgba(0, 0, 0, 0.2);
+      border-bottom-color: #5555aa; }
+  /* line 144, platform/features/timeline/res/sass/_timeline-thematic.scss */
+  .s-timeline .s-ticks {
+    background-image: -webkit-linear-gradient(-360deg, #595959 1px, transparent 1px, transparent 100%);
+    background-image: linear-gradient(90deg, #595959 1px, transparent 1px, transparent 100%);
+    background-repeat: repeat-x; }
+  /* line 147, platform/features/timeline/res/sass/_timeline-thematic.scss */
+  .s-timeline .s-hover-btns-holder {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: -webkit-linear-gradient(-90deg, #404040, #404040 75%, rgba(64, 64, 64, 0) 100%);
+    background-image: linear-gradient(-90deg, #404040, #404040 75%, rgba(64, 64, 64, 0) 100%); }
+  /* line 155, platform/features/timeline/res/sass/_timeline-thematic.scss */
+  .s-timeline .l-timeline-resource-graph .l-graph {
+    background: rgba(0, 0, 0, 0.2); }
+  /* line 158, platform/features/timeline/res/sass/_timeline-thematic.scss */
+  .s-timeline .l-timeline-resource-graph .l-title {
+    color: #999; }
+  /* line 163, platform/features/timeline/res/sass/_timeline-thematic.scss */
+  .s-timeline .s-follow-line {
+    background: rgba(0, 194, 255, 0.5); }
+  /* line 169, platform/features/timeline/res/sass/_timeline-thematic.scss */
+  .s-timeline .s-timeline-gantt .s-follow-line:after {
+    color: #00c2ff;
+    content: "󡄧";
+    font-family: symbolsfont;
+    text-shadow: rgba(0, 0, 0, 0.1) 0 1px 2px; }
+  /* line 176, platform/features/timeline/res/sass/_timeline-thematic.scss */
+  .s-timeline .s-timeline-gantt .s-follow-line:before {
+    background-image: -webkit-linear-gradient(-360deg, rgba(64, 64, 64, 0), #404040 30%, #404040 70%, rgba(64, 64, 64, 0));
+    background-image: linear-gradient(90deg, rgba(64, 64, 64, 0), #404040 30%, #404040 70%, rgba(64, 64, 64, 0)); }
+
+/*# sourceMappingURL=timeline-espresso.css.map */
